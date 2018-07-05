@@ -4,19 +4,14 @@ import java.util.Scanner;
 
 public class A8Q4 {
 	public static Boolean Prime(int n) {
-		int outCome;
-		if(n == 0)
-			return true;
-		double d = n / 2;
-		if((int)d == 0)
-			return true;
-		else{
-			do {
-			outCome = n / (int)d;
-			d--;
-		} while (outCome != (int)outCome);
-		return true;}
+		double c = n / 2;
+		for(int d = 2; d <= c; d++) {
+			if(n % d == 0) {
+				return false;
+			}
 		}
+		return true;
+	}
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -37,26 +32,3 @@ public class A8Q4 {
 		input.close();
 	}
 }
-/*Enter 10 Numbers in a row
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-Prime Numbers Are 1
-Prime Numbers Are 2
-Prime Numbers Are 1
-Prime Numbers Are 2
-Prime Numbers Are 1
-Prime Numbers Are 2
-Prime Numbers Are 1
-Prime Numbers Are 2
-Prime Numbers Are 1
-Prime Numbers Are 2
-Total of Prime Numbers is 10
-*/
