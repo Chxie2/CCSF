@@ -13,9 +13,7 @@ public class Undergraduate extends Student {
 		setLevel(initialLevel);
 	}
 
-	public void reset(int newlevel) {
-		String newName = getName();
-		int newStudentNumber = getStudentNumber(), newLevel = getLevel();
+	public void reset(String newName, int newStudentNumber, int newLevel) {
 		setName(newName);
 		setStudentNumber(newStudentNumber);
 		level = newLevel;

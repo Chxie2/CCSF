@@ -16,8 +16,7 @@ public class Inheritance_Main {
 		int num = input.nextInt();
 		System.out.println("What is the Level?");
 		int l = input.nextInt();
-		s1.reset(n, num);
-		u1.reset(l);//reset problem
+		u1.reset(n, num, l);
 		u1.writeOutput();
 	}
 
