@@ -22,7 +22,12 @@ public class Person {
 	public void writeOutput() {
 		System.out.println("Name: " + name);
 	}
-
+	public void reset(String newName) {
+		name = newName;
+	}
+	public boolean compare(Person otherPerson) {
+		 return hasSameName(otherPerson);
+	}
 	public boolean hasSameName(Person otherPerson) {
 		return this.name.equalsIgnoreCase(otherPerson.name);
 	}

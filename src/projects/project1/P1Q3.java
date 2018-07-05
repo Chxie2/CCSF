@@ -3,7 +3,7 @@ package projects.project1;
 public class P1Q3 {
 	public static void main(String args[]) {
 		int c;
-		System.out.println(Hello)//syntax
+		System.out.println("Hello");//syntax
 		
 		for (int a = 0; a < 1; a++){
 			  int b = 10 / a;//
