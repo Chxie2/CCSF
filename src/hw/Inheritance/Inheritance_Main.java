@@ -1,13 +1,9 @@
 package hw.Inheritance;
-import hw.Inheritance.Student;
 import hw.Inheritance.Undergraduate;
-import hw.Inheritance.TitledPerson;
 import java.util.Scanner;
 public class Inheritance_Main {
 	
 	public static void main(String[] args) {
-		Person p1 = new Person();
-		Student s1 = new Student();
 		Undergraduate u1 = new Undergraduate();
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the Name?");
@@ -18,6 +14,7 @@ public class Inheritance_Main {
 		int l = input.nextInt();
 		u1.reset(n, num, l);
 		u1.writeOutput();
+		input.close();
 	}
 
 }
