@@ -1,4 +1,4 @@
-package hw.Graphics.Assignment3;
+package hw.Graphics.Assignment3.TimeCalc;
 import javax.swing.JOptionPane;
 public class TimeCalc {
 	public static void main(String[] args) {
@@ -29,8 +29,6 @@ public class TimeCalc {
 		}
 		if (hour < -12)
 			hour += 24;
-		else
-			hour += 12;
 
 		JOptionPane.showMessageDialog(null, hour + " hours " + minute + " minutes " + second + " second ");
 

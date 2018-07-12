@@ -1,4 +1,4 @@
-package hw.Graphics.Assignment3;
+package hw.Graphics.Assignment3.Adult;
 import javax.swing.JOptionPane;
 
 public class Adult {

@@ -1,4 +1,4 @@
-package hw.Graphics.Assignment3;
+package hw.Graphics.Assignment3.Factorial;
 import javax.swing.JOptionPane;
 import hw.Graphics.Assignment2.Factorial.Factorial;
 

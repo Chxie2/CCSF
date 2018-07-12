@@ -1,4 +1,4 @@
-package hw.Graphics.Assignment3;
+package hw.Graphics.Assignment3.Drawings;
 import javafx.application.Application;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.Scene;

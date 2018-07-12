@@ -1,7 +1,7 @@
 package hw.Graphics.Assignment2.Factorial;
 import javax.swing.JOptionPane;
 public class Factorial {
-	public static void Factorial() {
+	public void Factorial() {
 		int finalValue = 0;
 		String wNum = JOptionPane.showInputDialog("What is Your Whole Number?");
 		int wholeNm = Integer.parseInt(wNum);
@@ -12,7 +12,8 @@ public class Factorial {
 	}
 
 	public static void main(String[] args) {
-		Factorial();
+		Factorial f = new Factorial();
+		f.Factorial();
 	}
 
 }

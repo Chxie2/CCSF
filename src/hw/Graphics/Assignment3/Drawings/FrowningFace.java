@@ -1,4 +1,4 @@
-package hw.Graphics.Assignment3;
+package hw.Graphics.Assignment3.Drawings;
 import javafx.scene.paint.Color;
 import javafx.application.Application;
 import javafx.scene.canvas.Canvas;
