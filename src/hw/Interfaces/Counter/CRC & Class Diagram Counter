@@ -1,0 +1,17 @@
+CRC 
+Responsibilities: 
+	set values to a given int from user
+	Record non-negative whole numbers, tests if the number is 0
+	increase/decrease count by 1
+	returns count into a string
+	returns count
+	
+
+Class Diagram
+	Variables: 
+		-count
+	Methods:
+		+recordNum()
+		+verifyNum()
+		+increaseDecreaseNum()
+		+getCount()	

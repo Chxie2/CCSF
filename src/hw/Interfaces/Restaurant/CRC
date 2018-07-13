@@ -1,0 +1,13 @@
+CRC: Online Order
+	Responsibilities: 
+		Add/Remove food to order
+		Check if item is out of stock
+		Display description of possible food allergens
+		Take input of Special needs
+		
+CRC: Online Payment
+	Responsibilities:
+		Calculate Total + Tax
+		Ask if Pick Up or Take Out
+		Give approximate time for Delivery/Pickup
+		Take Credit Card information		
