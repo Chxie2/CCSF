@@ -27,7 +27,7 @@ public class TimeCalc {
 			minute += 60;
 			hour--;
 		}
-		if (hour < -12)
+		if (hour < 0)
 			hour += 24;
 
 		JOptionPane.showMessageDialog(null, hour + " hours " + minute + " minutes " + second + " second ");
