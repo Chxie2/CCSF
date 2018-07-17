@@ -1,0 +1,15 @@
+3. Do Be Do
+   Exercise Exception invoked with an argument.
+   
+4. Wow, Crazy exception thrown!
+   Crazy exception thrown
+   Message is Crazy exception thrown
+
+5. try block entered
+   message DoubleException Thrown!
+   End of Code
+   
+6. 42
+   IntException thrown
+
+7. Yes you can derive from IOException, but it will have overridden methods.
