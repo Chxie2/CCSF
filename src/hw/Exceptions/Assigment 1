@@ -1,0 +1,38 @@
+1. Try Block Entered
+   Exception: Time Limit Exceeded
+   After Catch Block
+ 
+ 2. Try Block Entered
+    Leaving Try Block 
+    After Catch Block
+
+3. An exception is a object.
+
+4. Yes, it is legal. 
+
+5. The behavior wouldn't change.
+
+6. The throw statement executes the first catch block.
+
+7. try
+{
+   System.out.println("Try block entered.");
+   if (waitTime> 30)
+       throw new Exception("Time Limit Exceeded.");
+   System.out.println("Leaving try block.");
+}
+
+8. catch(Exception e)
+{
+   System.out.println("Exception: " + e.getMessage());
+}
+
+9. Exception(e)
+
+10. No it would not
+
+11. if(status == "bad")
+		throw new Exception("Exception thrown: Bad Status.")
+		
+	catch(Exception e)
+		System.out.println(e.getMessage());
